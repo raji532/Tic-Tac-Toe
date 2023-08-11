@@ -74,7 +74,8 @@ void player2_input()
 //to validate and insert the user choice
 void insert(int r, int c, char choice)
 {
-    if(matrix[r][c] == c1 || matrix[r][c] == c2)
+    if(matrix[r][c] == c1 || matrix[r][c] == c2 ||
+    r>2 || r<0 || c>2 || c<0 )
     {
         cout<<"Invalid choice!" << endl;
         if(choice == c1)
