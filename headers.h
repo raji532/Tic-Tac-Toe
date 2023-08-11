@@ -10,7 +10,6 @@ void player1_input();
 void player2_input();
 void insert(int r, int c, char choice);
 void print(char matrix[3][3]);
-void decision();
 void decision_loop();
 bool is_full();
 void who_wins(string player);

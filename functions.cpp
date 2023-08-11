@@ -90,12 +90,14 @@ void insert(int r, int c, char choice)
 //to print the matrix
 void print(char matrix[3][3])
 {
+    cout << endl << "Game matrix:" << endl;
     for(int i=0; i<3 ; i++)
     {
         for(int j=0; j<3 ; j++)
             cout << matrix[i][j] << " | ";
     cout << endl;
     }
+    cout << endl;
 }
 
 bool is_full()
